@@ -15,7 +15,7 @@ function print(){
     for(let i=0;i<1000;i++){
         numbers[dices[i]-1]++;
     }
-    //console.log(numbers[0]+numbers[1]+numbers[2]+numbers[3]+numbers[4]+numbers[5]);
+    console.log("totalt antal: " + (numbers[0]+numbers[1]+numbers[2]+numbers[3]+numbers[4]+numbers[5]));
     console.log(numbers);
 }
 

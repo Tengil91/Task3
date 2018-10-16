@@ -10,4 +10,3 @@ function fakultet(tal1){
 let n = +prompt("Programmet räknar ut fakulteten av det inmatade numret");
 alert(`${n}! = ${fakultet(n)}`);
 
-
