@@ -8,5 +8,5 @@ function fakultet(tal1){
     return tal2;
 }
 let n = +prompt("Programmet räknar ut fakulteten av det inmatade numret");
-alert(`${n}! = ${fakultet(n)}`);
+document.write(`${n}! = ${fakultet(n)}`);
 

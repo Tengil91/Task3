@@ -10,9 +10,9 @@ function randomDice(){
 //print skriver ut en array som innehåller förekomsten av 1or, 2or... och 6or som fås från randomDice.
 
 function print(){
-    dices = randomDice();
+    let dices = randomDice();
     let numbers = [0,0,0,0,0,0];
-    for(let i=0;i<1000;i++){
+    for(let i=0;i<dices.length;i++){
         numbers[dices[i]-1]++;
     }
     console.log("totalt antal: " + (numbers[0]+numbers[1]+numbers[2]+numbers[3]+numbers[4]+numbers[5]));
