@@ -1,4 +1,4 @@
-//Programmet ber användaren att mata in ett tal via prompt. Fakulteten returneras via alert.
+//Programmet ber användaren att mata in ett tal via prompt. Fakulteten returneras via write..
 
 function fakultet(tal1){
     let tal2=1;
@@ -7,6 +7,10 @@ function fakultet(tal1){
     }
     return tal2;
 }
-let n = +prompt("Programmet räknar ut fakulteten av det inmatade numret");
-document.write(`${n}! = ${fakultet(n)}`);
+let n = Math.floor(+prompt("Programmet räknar ut fakulteten av det inmatade numret (som är mindre än 170"));
+if(n>=171||n<0){
+    document.write(":(");
+} else {
+    document.write(`${n}! = ${fakultet(n)}`);
+}
 
