@@ -8,9 +8,10 @@ function fakultet(tal1){
     return tal2;
 }
 let n = Math.floor(+prompt("Programmet räknar ut fakulteten av det inmatade numret (som är mindre än 170"));
-if(n>=171||n<0){
+let answer = fakultet(n);
+if(answer>=Number.MAX_VALUE||n<0){
     document.write(":(");
 } else {
-    document.write(`${n}! = ${fakultet(n)}`);
+    document.write(`${n}! = ${answer}`);
 }
 
